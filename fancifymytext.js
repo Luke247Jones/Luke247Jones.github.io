@@ -1,3 +1,3 @@
 function changeText() {
-  alert("Hello, world!");
+  document.getElementById("textArea").style.fontSize = "large";
 }

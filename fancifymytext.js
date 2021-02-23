@@ -10,5 +10,5 @@ function fancySchmancy() {
 }
 
 function boringBetty() {
-  document.getElementById("demo").style.fontStyle = "initial";
+  document.getElementById("textArea").style.fontStyle = "initial";
 }

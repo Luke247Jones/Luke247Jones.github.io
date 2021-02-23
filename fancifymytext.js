@@ -1,3 +1,3 @@
-changeText() {
+function changeText() {
   alert("Hello, world!");
 }

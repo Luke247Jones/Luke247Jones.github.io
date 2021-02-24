@@ -19,3 +19,11 @@ function boringBetty() {
   document.getElementById("textArea").style.textDecoration = "initial";
   alert("Text changed to Boring Betty..");
 }
+
+function moo() {
+  var str = document.getElementById("textArea").value;
+  var parts = str.split(".");
+  var str2 = parts.join("Moo.");
+  document.getElementById("textArea").value = str2;
+  document.getElementById("textArea").style.textTransform="uppercase";
+}

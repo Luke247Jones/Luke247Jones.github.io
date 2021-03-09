@@ -26,8 +26,25 @@
   // you shouldn't write an entire Java program in the main method).
   function encryptIt() {
     var input = document.getElementById("input-text");
-    input = "encrypted";
-    document.getElementById("input-text") = input;
+    var output = shiftCipher(input);
+    document.getElementById("input-text") = output;
+  }
+  
+  function shiftCipher(text) {
+    text = text.toLowerCase();
+    let result = "";
+    for (let i = 0; i < text.length; i++) {
+      if (text[i] < 'a' || text[i] > 'z') {
+        result += text[i];
+      } else if (text[i] == 'z') {
+        result += 'a';
+      } else { // letter is between 'a' and 'y'
+        let letter = text.charCodeAt(i);
+        let resultLetter = String.fromCharCode(letter + 1);
+        result += resultLetter;
+      }
+    }
+    return result;
   }
 
 })();

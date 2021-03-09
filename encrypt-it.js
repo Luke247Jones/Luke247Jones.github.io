@@ -29,7 +29,7 @@
 
 function encryptIt() {
     var input = document.getElementById("input-text");
-    var output = shiftCipher(input);
+    var output = shiftCipher(String(input));
     document.getElementById("input-text") = output;
 }
   

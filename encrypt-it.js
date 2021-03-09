@@ -1,7 +1,6 @@
 /*
  * Starter file 
  */
-console.log("Window loaded!");
 
 (function() {
   "use strict";
@@ -17,6 +16,7 @@ console.log("Window loaded!");
    * TODO: Write a function comment using JSDoc.
    */
   function init() {
+    console.log("Window loaded!");
     // Note: In this function, we usually want to set up our event handlers
     // for UI elements on the page.
   }

@@ -28,9 +28,9 @@
 })();
 
 function encryptIt() {
-    var input = document.getElementById("input-text");
+    var input = document.getElementById("input-text").value;
     var output = shiftCipher(String(input));
-    document.getElementById("input-text") = output;
+    document.getElementById("input-text").value = output;
 }
   
 function shiftCipher(text) {

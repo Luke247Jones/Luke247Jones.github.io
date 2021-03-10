@@ -51,6 +51,6 @@ function shiftCipher(text) {
 }
 
 function reset() {
-  document.getElementById("input-text").value = "";
+  document.getElementById("input-text").value = "Enter your message to encrypted here";
   document.getElementById("result").innerHTML = "";
 }

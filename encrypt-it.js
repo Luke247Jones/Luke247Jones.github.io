@@ -49,3 +49,8 @@ function shiftCipher(text) {
   }
   return result;
 }
+
+function reset() {
+  document.getElementById("input-text").value = "";
+  document.getElementById("result").innerHTML = "";
+}

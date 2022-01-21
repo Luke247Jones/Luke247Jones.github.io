@@ -1,6 +1,4 @@
-# Luke247Jones.github.io
-
-My Projects from University/Career
+# My Projects from University/Career
 
 2D Game 
 - University project
